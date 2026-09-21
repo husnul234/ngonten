@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "dev": "py -m http.server 8000 --directory dashboard",
+    "dev:api": "neon dev",
+    "extract": "py scripts/extract.py"
+  },
   "dependencies": {
     "@neon/config": "^1.7.2",
     "@neon/env": "^1.4.3"
