@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Pak Husnul — 90 Hari Dashboard: YouTube Growth + Revenue 500K">
+<title>Pak Husnul — 90 Hari Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="header-top">
+      <div>
+        <h1>Pak Husnul — 90 Hari <span style="font-weight:400;color:var(--muted)">YouTube + Revenue</span></h1>
+        <div class="sub" id="meta">Memuat…</div>
+      </div>
+      <div class="sub">17 Agu — 15 Nov 2026 • Post & Cuan = source of truth harian</div>
+    </div>
+    <div class="kpis" id="kpis"><div class="card" style="grid-column:span 4;color:var(--muted)">Memuat KPI…</div></div>
+    <div id="banner" style="display:none" class="banner" role="alert"></div>
+  </div>
+</header>
+<nav class="tabs" aria-label="Section navigation"><div class="tabs-inner" id="tabs"></div></nav>
+<noscript><div class="wrap"><div class="banner">Butuh JavaScript untuk dashboard. Jalankan <code>py -m http.server 8000 --directory dashboard</code> dan buka http://localhost:8000</div></div></noscript>
+<div class="wrap">
+  <section id="s-timeline" aria-label="Timeline"></section>
+  <section id="s-pipeline" aria-label="Pipeline"></section>
+  <section id="s-kpi" aria-label="KPI Tracker"></section>
+  <section id="s-series" aria-label="Series & Funnel"></section>
+  <section id="s-campaign" aria-label="Campaigns"></section>
+  <section id="s-os" aria-label="Weekly OS"></section>
+  <section id="s-ideas" aria-label="Ideas"></section>
+  <section id="s-rebrand" aria-label="Rebrand"></section>
+  <footer id="footer"></footer>
+</div>
+<script defer src="app.js"></script>
+</body>
+</html>
